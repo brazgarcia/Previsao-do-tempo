@@ -4,7 +4,7 @@ import "./App.css";
 import WeatherInformations from "../components/WeatherInformations/WeatherInformations";
 
 function App() {
-  const [weather, setWeather] = useState({});
+  const [weather, setWeather] = useState();
   const inputRef = useRef();
 
   async function searchCity() {
@@ -15,16 +15,15 @@ function App() {
     const apiInfo = await axios.get(url);
     setWeather(apiInfo.data);
 
-
   }
 
   return (
-    <div>
+    <div className="container">
       <h1>Previsão do tempo</h1>
       <input ref={inputRef} type="text" placeholder="Digite o nome da cidade" />
       <button onClick={searchCity}>Buscar</button>
 
-      <WeatherInformations weather = {weather}/>
+      {weather &&<WeatherInformations weather = {weather}/>}
 
     </div>
   );
