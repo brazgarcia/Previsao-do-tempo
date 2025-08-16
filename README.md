@@ -1,12 +1,29 @@
-# React + Vite
+# Projeto de portifólio feito em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse é um projeto de previsão do tempo na qual foi utilizado uma api de previsão do tempo e desenvolvido em React
 
-Currently, two official plugins are available:
+Ele mostra a previsão de qualquer localização e também a dos cincos dias em diante 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# 🌤 Projeto de Previsão do Tempo em React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este é um projeto de portfólio desenvolvido em **React**, que utiliza uma **API de previsão do tempo** para fornecer informações meteorológicas atualizadas.
+
+## Funcionalidades
+
+- Consulta de previsão do tempo para **qualquer localização**.
+- Exibição da previsão detalhada para o **dia**.
+- Exibição da previsão detalhada para os **próximos 5 dias**.
+
+## Tecnologias Utilizadas
+
+- React;
+- JavaScript;
+- API de Previsão do Tempo (OpenWeather);
+- CSS / Styled Components.
+
+## Como Rodar o Projeto
+
+1. Clone o repositório:  
+   ```bash
+   git clone https://github.com/brazgarcia/previsao-do-tempo
