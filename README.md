@@ -27,3 +27,7 @@ Este é um projeto de portfólio desenvolvido em **React**, que utiliza uma **AP
 1. Clone o repositório:  
    ```bash
    git clone https://github.com/brazgarcia/previsao-do-tempo
+
+2. Baixe e instale os pacotes do projeto:  
+   ```bash
+   npm install
